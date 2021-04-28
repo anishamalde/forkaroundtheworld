@@ -5,6 +5,9 @@ export const QUERY = gql`
   query BlogPostsQuery {
     posts {
       id
+      title
+      body
+      createdAt
     }
   }
 `

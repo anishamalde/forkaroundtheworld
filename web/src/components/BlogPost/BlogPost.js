@@ -9,6 +9,7 @@ const BlogPost = ({ post }) => {
         </h2>
       </header>
       <div>{post.body}</div>
+      {console.log(post)}
     </article>
   )
 }
